@@ -88,7 +88,7 @@ video {
 
 .section {
 	padding: 30px 0;
-	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 
 .subheader {
