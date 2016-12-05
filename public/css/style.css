@@ -3,12 +3,22 @@ html, body {
 	padding: 0;
 }
 
+.video-bg {
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+video {
+	width: 100%;
+}
+
 .top-intro {
-	padding-bottom: 30px;
+	padding-top: 80px;
 }
 
 .intro {
-	font-weight: 300;
+	font-weight: bold;
 	line-height: 175%;
 }
 
@@ -57,13 +67,15 @@ html, body {
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 400;
-	background: white;
+	background: #f64638;
+	color: white;
+	/*background: white;
 	color: #f64638;
-	box-shadow: inset 0 0 0 2px #f64638;
+	box-shadow: inset 0 0 0 2px #f64638;*/
 }
 
 .video-btn:hover {
-	background: #f64638;
+	background: #dd3f32;
 	text-decoration: none;
 	color: white;
 }
@@ -120,6 +132,10 @@ html, body {
 
 @media (min-width: 768px){
 
+	.top-intro {
+		min-height: 710px;
+	}
+
 	.modal-dialog {
 		width:900px;
 	}
@@ -128,4 +144,20 @@ html, body {
 		padding-left: 50px;
 		padding-right: 50px;
 	}
+}
+@media (max-width: 768px){
+
+	.video-bg {
+		position: relative;
+	}
+
+	.intro {
+		text-align: center;
+	}
+
+	.top-intro {
+		padding-top: 20px;
+		text-align: center;
+	}
+
 }
