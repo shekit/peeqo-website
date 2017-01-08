@@ -7,7 +7,7 @@ $(document).ready(function(){
 		var height = this.videoHeight;
 		console.log(height)
 
-		//$(".top-intro").css({"min-height":height})
+		$(".top-intro").css({"min-height":height})
 	})
 
 	$("body").on('click', '.video-btn', scrollToPlace);
