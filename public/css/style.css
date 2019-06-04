@@ -36,6 +36,14 @@ h1,h2 {
 	border: none;
 }
 
+.btn-blue {
+	background: #007bff;
+}
+
+.btn-blue:hover {
+	background: #0062cc;
+}
+
 .ks-video {
 	width: 100%;
 	min-height: 500px;
